@@ -1,0 +1,15 @@
+{
+	"name": "df-azureproject123",
+	"properties": {
+		"trustModeClaimForMi": {
+			"value": "Enabled",
+			"editable": true
+		}
+	},
+	"location": "uksouth",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "a45d9697-92ef-462b-82e3-087335fe1d86",
+		"tenantId": "010e998a-39fa-4f60-923a-4f620bf74182"
+	}
+}
