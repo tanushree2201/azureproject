@@ -1,0 +1,17 @@
+{
+	"name": "azuresql",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "AzureSqlDatabase",
+		"typeProperties": {
+			"server": "azureprojectservertanu.database.windows.net",
+			"database": "azureprojectdbtanu",
+			"encrypt": "mandatory",
+			"trustServerCertificate": false,
+			"authenticationType": "SQL",
+			"userName": "admintanu",
+			"encryptedCredential": "ew0KICAiVmVyc2lvbiI6ICIyMDE3LTExLTMwIiwNCiAgIlByb3RlY3Rpb25Nb2RlIjogIktleSIsDQogICJTZWNyZXRDb250ZW50VHlwZSI6ICJQbGFpbnRleHQiLA0KICAiQ3JlZGVudGlhbElkIjogIkRBVEFGQUNUT1JZQEU4QTU2OTdGLUE1MTktNDRCMC1CODNFLTQ0OENGMUJEMTZEN181NTFkYzU1Ny0yM2I4LTRkOGUtYjg2Yy05NGFiNWVkZjRhNDAiDQp9"
+		}
+	}
+}
